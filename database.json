@@ -1,0 +1,364 @@
+{
+  "inventory": [
+    {
+      "id": "inv_1",
+      "brand": "Exide",
+      "model": "Mile XL 100",
+      "type": "Standard",
+      "capacity": "100 Ah",
+      "voltage": 12,
+      "stockLevel": 18,
+      "reorderLevel": 5,
+      "cost": 90,
+      "price": 140,
+      "location": "Shelf A1"
+    },
+    {
+      "id": "inv_2",
+      "brand": "Amaron",
+      "model": "Hi-Life AGM",
+      "type": "Premium",
+      "capacity": "150 Ah",
+      "voltage": 12,
+      "stockLevel": 3,
+      "reorderLevel": 8,
+      "cost": 130,
+      "price": 195,
+      "location": "Shelf B2"
+    },
+    {
+      "id": "inv_3",
+      "brand": "Luminous",
+      "model": "Solar Tubular 220",
+      "type": "Custom",
+      "capacity": "220 Ah",
+      "voltage": 12,
+      "stockLevel": 12,
+      "reorderLevel": 4,
+      "cost": 180,
+      "price": 270,
+      "location": "Warehouse Rear"
+    },
+    {
+      "id": "inv_4",
+      "brand": "Tesla Power",
+      "model": "Li-Ion PowerPack",
+      "type": "Premium",
+      "capacity": "100 Ah",
+      "voltage": 48,
+      "stockLevel": 5,
+      "reorderLevel": 3,
+      "cost": 850,
+      "price": 1200,
+      "location": "Premium Bay"
+    },
+    {
+      "id": "inv_5",
+      "brand": "Optima",
+      "model": "BlueTop D31M",
+      "type": "Standard",
+      "capacity": "75 Ah",
+      "voltage": 12,
+      "stockLevel": 2,
+      "reorderLevel": 4,
+      "cost": 160,
+      "price": 240,
+      "location": "Shelf A2"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead_1",
+      "customerName": "Robert Chen",
+      "phone": "+1 (555) 234-5678",
+      "email": "robert.chen@outlook.com",
+      "source": "Google Ads",
+      "productInterest": "150Ah AGM",
+      "status": "New",
+      "estimatedValue": 390,
+      "assignedTo": "Sarah Jenkins",
+      "notes": "Wants AGM batteries for solar off-grid storage setup. Seeking advice on capacity requirements.",
+      "createdAt": "2026-05-27T12:39:53.294Z"
+    },
+    {
+      "id": "lead_2",
+      "customerName": "Apex Logistics Inc.",
+      "phone": "+1 (555) 890-1234",
+      "email": "procurement@apexlogistics.com",
+      "source": "Walk-in",
+      "productInterest": "Multiple Tubular 220Ah",
+      "status": "Under Discussion",
+      "estimatedValue": 1620,
+      "assignedTo": "Alex Rivera",
+      "notes": "Fleet backup power solution. Needs bulk pricing quotation for 6 units of solar tubular batteries.",
+      "createdAt": "2026-05-20T12:39:53.294Z"
+    },
+    {
+      "id": "lead_3",
+      "customerName": "Emma Thompson",
+      "phone": "+1 (555) 432-1098",
+      "email": "emma.t77@gmail.com",
+      "source": "Social Media",
+      "productInterest": "100Ah Li-ion",
+      "status": "Proposal Sent",
+      "estimatedValue": 1200,
+      "assignedTo": "Sarah Jenkins",
+      "notes": "E-bike conversion project. Sent dynamic lithium-ion battery pricing sheet with customized warranty option.",
+      "createdAt": "2026-05-25T12:39:53.294Z"
+    },
+    {
+      "id": "lead_4",
+      "customerName": "Gregory Miller",
+      "phone": "+1 (555) 829-1029",
+      "email": "g.miller@gmail.com",
+      "source": "Website",
+      "productInterest": "75Ah Gel",
+      "status": "Contacted",
+      "estimatedValue": 480,
+      "assignedTo": "Sarah Jenkins",
+      "notes": "Marine backup system queries. Invoiced client for a consultation call.",
+      "createdAt": "2026-05-29T12:39:53.294Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale_1",
+      "invoiceNumber": "INV-2026-001",
+      "clientName": "David Miller",
+      "clientPhone": "+1 (555) 987-6543",
+      "clientEmail": "dmiller@gmail.com",
+      "clientAddress": "482 Pine Dr, Springfield",
+      "productId": "inv_3",
+      "productDetails": "Luminous Solar Tubular 220 (220 Ah, 12V)",
+      "quantity": 2,
+      "totalAmount": 540,
+      "paymentMethod": "Bank Transfer",
+      "installationDate": "2026-05-10",
+      "warrantyMonths": 36,
+      "warrantyExpiration": "2029-05-10",
+      "status": "Completed",
+      "employeeId": "Sarah Jenkins"
+    },
+    {
+      "id": "sale_2",
+      "invoiceNumber": "INV-2026-002",
+      "clientName": "Jessica Taylor",
+      "clientPhone": "+1 (555) 474-3921",
+      "clientEmail": "jtaylor@yahoo.com",
+      "clientAddress": "12 Ocean Breeze Ave, Sector 4",
+      "productId": "inv_2",
+      "productDetails": "Amaron Hi-Life AGM (150 Ah, 12V)",
+      "quantity": 1,
+      "totalAmount": 195,
+      "paymentMethod": "Card",
+      "installationDate": "2026-05-18",
+      "warrantyMonths": 24,
+      "warrantyExpiration": "2028-05-18",
+      "status": "Completed",
+      "employeeId": "Alex Rivera"
+    },
+    {
+      "id": "sale_3",
+      "invoiceNumber": "INV-2026-003",
+      "clientName": "Global Corp Office",
+      "clientPhone": "+1 (555) 555-0199",
+      "clientEmail": "it.backups@globalcorp.net",
+      "clientAddress": "100 Corporate Plaza, Fl 4",
+      "productId": "inv_4",
+      "productDetails": "Tesla Power Li-Ion PowerPack (100 Ah, 48V)",
+      "quantity": 3,
+      "totalAmount": 3600,
+      "paymentMethod": "Financing",
+      "installationDate": "2026-05-26",
+      "warrantyMonths": 48,
+      "warrantyExpiration": "2030-05-26",
+      "status": "Pending Installation",
+      "employeeId": "Sarah Jenkins"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client_1",
+      "name": "David Miller",
+      "phone": "+1 (555) 987-6543",
+      "email": "dmiller@gmail.com",
+      "address": "482 Pine Dr, Springfield",
+      "productDetails": "220 Ah",
+      "installationDate": "2026-05-10",
+      "warrantyExpiration": "2029-05-10",
+      "lastServiceDate": "2026-05-10",
+      "notes": "Double pack backup system installed for residence. Requires distilled water top-up reminders."
+    },
+    {
+      "id": "client_2",
+      "name": "Jessica Taylor",
+      "phone": "+1 (555) 474-3921",
+      "email": "jtaylor@yahoo.com",
+      "address": "12 Ocean Breeze Ave, Sector 4",
+      "productDetails": "150 Ah",
+      "installationDate": "2026-05-18",
+      "warrantyExpiration": "2028-05-18",
+      "lastServiceDate": "2026-05-18",
+      "notes": "Suburban backup installation. High load profile."
+    },
+    {
+      "id": "client_3",
+      "name": "Global Corp Office",
+      "phone": "+1 (555) 555-0199",
+      "email": "it.backups@globalcorp.net",
+      "address": "100 Corporate Plaza, Fl 4",
+      "productDetails": "100 Ah (48V Li-ion)",
+      "installationDate": "2026-05-26",
+      "warrantyExpiration": "2030-05-26",
+      "lastServiceDate": "2026-05-26",
+      "notes": "Enterprise server backup power units, premium lithium battery cells safety inspection needed annually."
+    },
+    {
+      "id": "client_4",
+      "name": "Marcus Aurelius",
+      "phone": "+1 (555) 123-9999",
+      "email": "marcus.stoic@gmail.com",
+      "address": "77 Stoic Villa Way, Empire Hills",
+      "productDetails": "100 Ah",
+      "installationDate": "2025-11-20",
+      "warrantyExpiration": "2027-11-20",
+      "lastServiceDate": "2025-11-20",
+      "notes": "Standard Exide Lead Acid battery pack. Intact, but due for first diagnostic check and distilled water refill."
+    }
+  ],
+  "reminders": [
+    {
+      "id": "rem_1",
+      "clientId": "client_1",
+      "clientName": "David Miller",
+      "clientPhone": "+1 (555) 987-6543",
+      "type": "Water Level Top-up",
+      "dueDate": "2026-11-10",
+      "status": "Scheduled",
+      "notes": "6 Month recommended water service interval verification."
+    },
+    {
+      "id": "rem_2",
+      "clientId": "client_4",
+      "clientName": "Marcus Aurelius",
+      "clientPhone": "+1 (555) 123-9999",
+      "type": "Water Level Top-up",
+      "dueDate": "2026-05-20",
+      "status": "Overdue",
+      "notes": "6 Months since initial battery pack installation - water refill extremely critical to prevent plate oxidation durability drops."
+    },
+    {
+      "id": "rem_3",
+      "clientId": "client_2",
+      "clientName": "Jessica Taylor",
+      "clientPhone": "+1 (555) 474-3921",
+      "type": "Terminal Cleaning",
+      "dueDate": "2026-05-25",
+      "status": "Sent",
+      "notes": "Auto-notified client via email/sms template regarding terminal check."
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp_1",
+      "name": "Sarah Jenkins",
+      "designation": "Sales Executive",
+      "phone": "+1 (555) 111-2222",
+      "email": "sjenkins@batteryco.com",
+      "baseSalary": 2800,
+      "commissionPercentage": 5,
+      "shiftSchedule": "General (09:00 - 17:00)",
+      "workedShiftsCount": 20,
+      "salesInvoiced": 4140,
+      "leadsConverted": 2
+    },
+    {
+      "id": "emp_2",
+      "name": "Alex Rivera",
+      "designation": "Senior Technician",
+      "phone": "+1 (555) 333-4444",
+      "email": "arivera@batteryco.com",
+      "baseSalary": 3400,
+      "commissionPercentage": 2,
+      "shiftSchedule": "Morning (08:00 - 16:00)",
+      "workedShiftsCount": 22,
+      "salesInvoiced": 195,
+      "leadsConverted": 1
+    },
+    {
+      "id": "emp_3",
+      "name": "Tyler Durden",
+      "designation": "Helper",
+      "phone": "+1 (555) 555-5555",
+      "email": "tdurden@batteryco.com",
+      "baseSalary": 1800,
+      "commissionPercentage": 0,
+      "shiftSchedule": "Evening (16:00 - 00:00)",
+      "workedShiftsCount": 18,
+      "salesInvoiced": 0,
+      "leadsConverted": 0
+    },
+    {
+      "id": "emp_4",
+      "name": "Elena Rostova",
+      "designation": "Depot Manager",
+      "phone": "+1 (555) 777-8888",
+      "email": "erostova@batteryco.com",
+      "baseSalary": 4500,
+      "commissionPercentage": 1,
+      "shiftSchedule": "General (09:00 - 17:00)",
+      "workedShiftsCount": 24,
+      "salesInvoiced": 0,
+      "leadsConverted": 0
+    }
+  ],
+  "settings": {
+    "companyName": "VoltCharge Battery Corp",
+    "companyEmail": "support@voltcharge.com",
+    "companyPhone": "+1 (800) 555-VOLT",
+    "companyAddress": "700 Ampere Blvd, Power City, PC 50505",
+    "companyTaxId": "TX-99882211-B",
+    "companyCurrency": "₹",
+    "userRoles": [
+      {
+        "role": "Super Admin",
+        "adminLevel": "High",
+        "description": "Full system access to accounts, inventory configurations, employee payroll and system settings.",
+        "permissions": {
+          "dashboard": true,
+          "inventory": true,
+          "leads": true,
+          "sales": true,
+          "employees": true,
+          "settings": true
+        }
+      },
+      {
+        "role": "Manager",
+        "adminLevel": "Medium",
+        "description": "Can manage stock levels, technician allocation, service intervals, shift scheduling and lead entries.",
+        "permissions": {
+          "dashboard": true,
+          "inventory": true,
+          "leads": true,
+          "sales": true,
+          "employees": true,
+          "settings": false
+        }
+      },
+      {
+        "role": "Sales Executive",
+        "adminLevel": "Low",
+        "description": "Responsible for logging battery sales, managing active customer leads and scheduling initial inspection reminders.",
+        "permissions": {
+          "dashboard": true,
+          "inventory": true,
+          "leads": true,
+          "sales": true,
+          "employees": false,
+          "settings": false
+        }
+      }
+    ]
+  }
+}

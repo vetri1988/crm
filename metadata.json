@@ -1,0 +1,8 @@
+{
+  "name": "Remix: server CRM Inventory System ",
+  "description": "Full-stack Battery CRM containing inventory management, lead tracking, automated service reminders, sales module client histories, employee shifts/payroll, and dashboard analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
